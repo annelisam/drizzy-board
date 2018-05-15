@@ -3,4 +3,7 @@
 
         $("#playSound").on("click", function(event) {
             audio.play();
+
+            $("#drizzy").append("<img id='theImg' src='./assets/drake.png'/>")
+
         });
